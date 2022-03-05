@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Contato - Barbearia Augustinho Carrara</title>
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style-contato.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com">
+    </head>
+        <body>
+            <header>
+                <div class="caixa">
+                    <h1><img class="imagemprincipal" src="images/Augustinho_Carrara.png" alt="Logo BAC"></h1>
+                
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="servicos.html">Serviços</a></li>
+                            <li><a href="https://www.google.com.br/maps/place/R.+Jos%C3%A9+de+Oliveira+Franco,+1975+-+Bairro+Alto,+Curitiba+-+PR,+82820-110/@-25.4153701,-49.2069317,17z/data=!3m1!4b1!4m5!3m4!1s0x94dce589b174373f:0xd2482c7eec698117!8m2!3d-25.415375!4d-49.204743">Onde estamos</a></li>
+                        </ul>
+                    </nav>                
+                </div>
+                
+            </header>
+            <main>
+                <form>
+                    <label for="nomesobrenome">Nome e Sobrenome: </label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="seu nome aqui">
+
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="exemplo@dominio.com">
+
+                    <label for="telefone">Telefone: </label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                    <label for="mensagem">Mensagem</label> 
+                    <textarea cols="68" rows="10" id="mensagem" class="input-padrao"></textarea>
+                    
+                    <fieldset> <!-- Contato -->
+
+                        <legend>Como prefere o nosso contato?</legend>
+                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                        
+                        
+                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                        
+
+                        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                        
+
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Qual horário prefere ser atendido?</legend>
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </fieldset>
+                    
+
+                    <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+
+                    <input type="submit" value="Enviar formulário" class="enviar">
+                </form>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda ~ Sexta</td>
+                            <td>10h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sabádos</td>
+                            <td>11h ~ 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Domingos & Feriados</td>
+                            <td>Fechado</td>
+                        </tr>
+                    </tbody>
+                    
+                </table>
+                    
+            </main>
+            <footer>
+                <img class="logo-preto-branco" src="images/Augustinho_Carrara.png" alt="Logo BAC">
+                <p id="copyright">&#169 Copyright Barbearia Augustinho Carrara - 2021</p>
+        </footer>        
+    </body>  
+</HTML>

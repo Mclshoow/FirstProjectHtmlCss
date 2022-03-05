@@ -1,0 +1,205 @@
+header
+{
+    /*background: #afafaf;*/
+    background: url("../images/placa-decorativa.jpg");
+}
+.caixa
+{
+    font-family: 'Heebo', sans-serif;
+    position: relative;
+    width: 940px;
+}
+.imagemprincipal
+{
+    width: 30%;
+}
+nav li
+{
+    background:  rgb(13, 13, 13);
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav
+{
+    position: relative;
+
+    
+}
+nav a
+{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28;
+       
+}
+nav a:hover
+{
+    color: #db6a6a;
+}
+
+main
+{
+    width: 940px;
+    margin: 0 auto;
+}
+form
+{
+    margin: 40px 0;
+}
+form label, form legend
+{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao
+{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox
+{
+    margin: 20px 0;
+}
+.enviar
+{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-top: none;
+    border-left: none;
+    border-radius: 5px;
+    transition: 0.2s background;
+    cursor: pointer;
+}
+.enviar:hover
+{
+    background: orangered;
+    font-size: 20px;
+}
+table
+{
+    margin: 20px 0 40px;
+}
+thead
+{
+    background: #555555;
+    font-weight: bold;
+    color: white;
+}
+
+td, th
+{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+body
+{
+    font-family: 'Heebo', sans-serif;
+}
+
+footer
+{
+    text-align: center;
+    /*background: #afafaf;*/
+    background: url("../images/placa-decorativa.jpg");
+    padding-right: 10px;
+}
+.logo-preto-branco
+{
+    width: 23%;
+    padding: 0%;
+    margin: 0%;
+}
+
+#copyright
+{
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 480px) 
+{  
+    header, footer
+    {
+        background:  rgb(13, 13, 13)
+    }
+    form
+    {
+        margin: 5px 0;
+    }
+    main
+    {
+        width: auto;
+        padding: 5px;
+    }
+
+    .input-padrao
+    {
+        padding: 10px 89px;
+    }
+
+    .enviar
+    {
+        width: auto;
+        padding: 15px 10px;
+    }
+    .caixa, .titulo-centralizado, .mapa, header
+    {
+        width: auto;
+    }
+    .titulo-centralizado
+    {
+        font-size: 18px;
+    }
+
+    .imgcortecabelo, .imgfazerbarba
+    {
+        display: inline-block;
+        width: 30%;
+        margin: 0 35px;
+    }
+    .imagemprincipal
+    {
+        margin: 0 auto;     
+        width: 20%;
+    }
+    .beneficios
+    {
+        padding: 0;
+    }
+    .imgin, .imgout, .ferramentas
+    {
+        display: block;
+        width: 100%;
+    }
+
+    nav
+    {
+        position: static;
+    }
+
+    .itensbeneficios
+    {
+        padding: 0;
+        width: 100%;
+    }
+}
+/*A tag table, que representa a tabela
+A tag tr, que representa a linha da tabela
+A tag td, que representa a célula da tabela
+A tag thead, que representa o cabeçalho da tabela
+A tag tbody, que representa o corpo da tabela
+A tag th, que representa a célula do cabeçalho da tabela
+A tag tfoot, que representa o rodapé da tabela*/

@@ -1,0 +1,269 @@
+header
+{
+    background-image: url("../images/placa-decorativa.jpg");
+}
+
+.principal
+{
+    /*background: rgb(146, 29, 29);*/
+    background: white;   
+}
+.caixa
+{
+    position: relative;
+    width: 940px;
+}
+.imagemprincipal
+{   
+    width: 30%;
+}
+nav li
+{
+    background:  rgb(13, 13, 13);
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav
+{
+    position: relative;
+    
+}
+nav a
+{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28;
+    
+       
+}
+nav a:hover
+{
+    color: #db6a6a;
+}
+
+body
+{
+    font-family: 'Heebo', sans-serif;
+    height: 100%;
+    width: 100%;
+
+}
+#paragrafo
+{
+    display: block;
+    text-align: center; /* alinhamento de texto / paragrafo */
+    font-size: 17px; /* tamanho da fonte do texto / paragrafo */
+    /* background: #87CEFA; /* cor de fundo do texto / paragrafo */ 
+    color: black; /* cor das letras do texto / paragrafo */
+    font-style: italic;
+    margin: 10px 0;
+    line-height: 1.2;
+    /* text-shadow: 1px 1px rgb(13, 13, 13); para colocar sombra nos textos */
+}
+
+.mapa
+{
+    padding: 20px 110px;
+    background:  rgb(13, 13, 13);
+    /*background: linear gradiente(orange, blue);*/
+
+}
+
+.titulo-centralizado
+{
+    font-size: 26px; 
+    text-align: center; 
+    background: rgb(13, 13, 13); 
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    /*color: rgba(0,0,0,0.3); rgba = cor com camada Alpha (opacidade)*/ 
+    
+}
+#missao
+{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.itens
+{
+    font-style: italic;
+    line-height: 1.5;
+}
+.itens:before
+{
+    content: "\2738";
+}
+
+strong 
+{
+    color: white;
+}
+em strong
+{    
+    display: inline-block;
+    font-size: 28px;
+    color: red;
+    text-decoration: underline rgb(146, 29, 29);
+    font-style: italic;
+    text-align: center;
+
+}
+.imgcortecabelo
+{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 25px 250px;
+    /*box-shadow: inset 0 0 5px #000000; sombra para a imagem interna */
+    /*box-shadow: 10px 10px 30px #000000; sombra para a imagem */
+}
+.imgfazerbarba
+{
+    display: inline-block;
+    width: 25%;
+    margin: 10px 130px;
+
+}
+
+.beneficios
+{
+    background: rgb(13, 13, 13);
+    height: 100%;
+    width: 100%;
+}
+.itensbeneficios
+{
+    background: rgb(13, 13, 13);
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+
+.imgin
+{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 4px solid rgb(13, 13, 13);
+    border-top: none;
+}
+.imgout
+{
+    display: inline-block;
+    width: 26%;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 4px solid rgb(13, 13, 13);
+    border-top: none;
+}
+.ferramentas
+{
+    display: inline-block;
+    width: 26%;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 4px solid rgb(13, 13, 13);
+    border-top: none;
+}
+footer
+{
+    text-align: center;
+    /*background: #afafaf;*/   
+    background-image: url("../images/placa-decorativa.jpg");
+    padding-right: 10px;
+}
+.logo-preto-branco
+{
+    width: 23%;
+    padding: 0%;
+    margin: 0%;
+}
+
+#copyright
+{    
+    padding: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(13, 13, 13);
+}
+
+@media screen and (max-width: 480px) 
+{  
+    header, footer
+    {
+        background:  rgb(13, 13, 13)
+    }
+    .caixa, .titulo-centralizado, .mapa, header
+    {
+        width: auto;
+    }
+    .titulo-centralizado
+    {
+        font-size: 18px;
+    }
+
+    .imgcortecabelo, .imgfazerbarba
+    {
+        display: inline-block;
+        width: 30%;
+        margin: 0 35px;
+    }
+    .imagemprincipal
+    {
+        margin: 0 auto;     
+        width: 20%;
+    }
+    .beneficios
+    {
+        padding: 0;
+    }
+    .imgin, .imgout, .ferramentas
+    {
+        display: block;
+        width: 100%;
+    }
+
+    nav
+    {
+        position: static;
+    }
+
+    .itensbeneficios
+    {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

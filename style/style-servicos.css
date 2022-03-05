@@ -1,0 +1,187 @@
+header
+{
+    /*background: #afafaf;*/
+    background: url("../images/placa-decorativa.jpg");
+}
+.caixa
+{    
+    position: relative;
+    width: 940px;
+}
+.imagemprincipal
+{
+    width: 30%;
+}
+nav li
+{
+    background:  rgb(13, 13, 13);
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav
+{
+    position: relative;
+
+    
+}
+nav a
+{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28;
+       
+}
+nav a:hover
+{
+    color: #db6a6a;
+}
+.servicos
+{  
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.servicos li
+{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /*border-color: #000000;
+    border-width: 2px;
+    border-style: solid;*/
+    border: 2px solid #a1a1a1;
+    border-radius: 10px;
+}
+.servicos li:hover
+{
+    border-color: #db6a6a;
+    color: #db6a6a;
+}
+.servicos li:active
+{
+    border-color: #15ff00;
+    color: #15ff00;
+}
+.servicos h2
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.servicos li:hover h2
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+.descricao
+{
+    font-size: 19px;
+    font-style: italic;
+}
+.preco
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+body
+{
+    font-family: 'Heebo', sans-serif;
+}
+
+footer
+{
+    text-align: center;
+    /*background: #afafaf;*/
+    background: url("../images/placa-decorativa.jpg");
+    padding-right: 10px;
+}
+.logo-preto-branco
+{
+    width: 23%;
+    padding: 0%;
+    margin: 0%;
+}
+
+#copyright
+{
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(13, 13, 13);
+
+}
+
+@media screen and (max-width: 480px) 
+{   
+    header, footer
+    {
+        background:  rgb(13, 13, 13)
+    }
+    .caixa, .titulo-centralizado
+    {
+        width: auto;
+    }
+    .servicos
+    {
+        width: auto;
+        padding: 5px 3px;
+    }
+    .servicos li
+    {
+        display: block;
+        box-sizing: content-box;
+        width: auto;
+
+    }
+    .titulo-centralizado
+    {
+        font-size: 18px;
+    }
+
+    .imgcortecabelo, .imgfazerbarba
+    {
+        display: inline-block;
+        width: 30%;
+        margin: 0 35px;
+    }
+    .imagemprincipal
+    {
+        margin: 0 auto;     
+        width: 20%;
+    }
+    .beneficios
+    {
+        padding: 0;
+    }
+    .imgin, .imgout, .ferramentas
+    {
+        display: block;
+        width: 100%;
+    }
+
+    nav
+    {
+        position: static;
+    }
+
+    .itensbeneficios
+    {
+        padding: 0;
+        width: 100%;
+    }
+
+    footer 
+    {
+        padding-right: 0;
+    }
+
+    
+}
